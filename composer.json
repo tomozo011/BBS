@@ -1,4 +1,5 @@
 {
+
     "name": "laravel/laravel",
     "type": "project",
     "description": "The Laravel Framework.",
@@ -11,7 +12,8 @@
         "php": "^7.2.5|8.0.6",
         "fideloper/proxy": "^4.4",
         "laravel/framework": "^6.20.26",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "silex/silex": "~1.1"
     },
     "require-dev": {
         "facade/ignition": "^1.16.15",
@@ -58,4 +60,6 @@
             "@php artisan key:generate --ansi"
         ]
     }
+    
 }
+
